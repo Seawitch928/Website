@@ -7,7 +7,7 @@
 }
 
 body {
-	background: linear-gradient(180deg, #19192e 0%, #041642 100%);
+	background: linear-gradient(180deg, #26658c 0%, #54acbf 100%);
 	color: var(--text-main);
 	font-family: "Lato", sans-serif;
 	min-height: 100vh;
@@ -23,7 +23,7 @@ body {
 
 .degree-name {
 	font-family: "Besley", serif;
-	color: #00447C;
+	color: #54acbf;
 	text-align: center;
 }
 
