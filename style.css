@@ -1,0 +1,124 @@
+:root {
+	--primary-bg: #19192e;
+	--accent: #7e5936;
+	--accent-light: #FFCB05;
+	--text-main: #000000;
+	--border-color: #f5cb86;
+}
+
+body {
+	background: linear-gradient(180deg, #19192e 0%, #041642 100%);
+	color: var(--text-main);
+	font-family: "Lato", sans-serif;
+	min-height: 100vh;
+}
+
+.display-name {
+	font-family: "Graduate", serif;
+	font-size: clamp(2.5rem, 5vw, 4rem);
+	text-align: center;
+	color: var(--accent-light);
+	margin-bottom: 0.5rem;
+}
+
+.degree-name {
+	font-family: "Besley", serif;
+	color: #00447C;
+	text-align: center;
+}
+
+.gpa-badge {
+	background-color: #0060b0;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 15px;
+	padding: 0.7rem 1rem;
+	font-size: 1rem;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 8%;
+}
+
+.term-container {
+	background: linear-gradient(60deg, #7e5936 0%, #f5cb86 100%);
+	border: 2px solid var(--border-color);
+	border-radius: 15px;
+	padding: 1.5rem;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.term-title {
+	font-family: "Besley", serif;
+	color: var(--accent);
+	margin-bottom: 0.4rem;
+}
+
+.term-progress {
+	color: #00447C;
+	font-style: italic;
+	margin-bottom: 1rem;
+}
+
+.course-item {
+	font-size: 0.9rem;
+}
+
+.course-code {
+	align-items: left;
+	min-width: 88px;
+	padding: 0.35rem 0.6rem;
+	font-weight: 700;
+	font-size: 0.7rem;
+	color: #57370d;
+}
+
+.btn {
+	--bs-btn-padding-y: 0.05rem;
+	--bs-btn-padding-x: 0.4rem;
+	--bs-btn-font-size: 0.9rem;
+}
+
+.grade-a {
+	background-color: #00c81a;
+	color: #111;
+}
+
+.grade-b {
+	background-color: #0060b0;
+	color: #fff;
+}
+
+.grade-c {
+	background-color: #c8cf00;
+	color: #111;
+}
+
+.grade-d {
+	background-color: #ec671b;
+	color: #111;
+}
+
+.grade-f {
+	background-color: #fa454f;
+	color: #111;
+}
+
+.grade-p {
+	background-color: #afafaf;
+	color: #111;
+}
+
+.grade-pending {
+	background-color: #f947b4;
+	color: #111;
+}
+
+.footer-custom {
+	color: #00447C;
+	font-size: 0.95rem;
+	font-weight: bold;
+	text-align: center;
+}
