@@ -3,18 +3,18 @@
 	--accent: #cccccc;
 	--accent-light: #ff0390;
 	--text-main: #666666;
-	--border-color: #00b4fe;
+	--border-color: #00ff00;
 }
 
 body {
-	background: linear-gradient(180deg, #201048 0%, #011837 33%, #0d0d0d 100%);
+	background: linear-gradient(180deg, #0d0d0d 0%, #101010 33%, #000000 100%);
 	color: var(--text-main);
 	font-family: "Roboto Condensed", sans-serif;
 	min-height: 100vh;
 }
 
 .display-name {
-	font-family: "Graduate", serif;
+	font-family: "Sixtyfour", sans-serif;
 	font-size: clamp(2.5rem, 5vw, 4rem);
 	text-align: center;
 	text-shadow: 0 5px 7px rgba(0, 0, 0, 0.8);
@@ -29,7 +29,7 @@ body {
 }
 
 .term-container {
-	background: linear-gradient(180deg, #101010 0%, #0d0d0d 100%);
+	background: linear-gradient(-45deg, #0d0d0d 0%, #141414 50%, #000000 100%);
 	border: 1px solid var(--border-color);
 	border-radius: 15px;
 	padding: 1.5rem;
@@ -43,7 +43,7 @@ body {
 }
 
 .term-progress {
-	color: #00b4fe;
+	color: #fe6b03;
 	font-style: italic;
 	margin-bottom: 1rem;
 }
@@ -69,7 +69,8 @@ body {
 }
 
 button {
-	font-size: 1rem;
+	font-family: "JetBrains Mono", monospace;
+	font-size: 0.9rem;
 	color: #011837;
 	padding: 8px;
 	text-align: center;
@@ -131,7 +132,7 @@ button:hover {
 }
 
 .footer-custom {
-	color: #00447C;
+	color: #ff0390;
 	font-size: 0.95rem;
 	font-weight: bold;
 	text-align: center;
