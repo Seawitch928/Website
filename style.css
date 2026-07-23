@@ -9,7 +9,7 @@
 body {
 	background: linear-gradient(180deg, #000000 0%, #19192e 100%);
 	color: var(--text-main);
-	font-family: sans-serif;
+	font-family: "Roboto Condensed", sans-serif;
 	min-height: 100vh;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 .degree-name {
-	font-family: serif;
+	font-family: "Bodoni Moda", serif;
 	color: #54acbf;
 	text-align: center;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 .term-title {
-	font-family: serif;
+	font-family: "Bodoni Moda", serif;
 	color: var(--accent);
 	margin-bottom: 0.4rem;
 }
@@ -56,6 +56,7 @@ body {
 	align-items: left;
 	min-width: 88px;
 	padding: 0.35rem 0.6rem;
+	font-family: "JetBrains Mono", monospace;
 	font-weight: 700;
 	font-size: 0.7rem;
 	color: #57370d;
