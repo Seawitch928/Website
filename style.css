@@ -1,13 +1,13 @@
 :root {
-	--primary-bg: #19192e;
-	--accent: #7e5936;
-	--accent-light: #FFCB05;
-	--text-main: #000000;
-	--border-color: #f5cb86;
+	--primary-bg: #000000;
+	--accent: #cccccc;
+	--accent-light: #ff0390;
+	--text-main: #666666;
+	--border-color: #00b4fe;
 }
 
 body {
-	background: linear-gradient(180deg, #000000 0%, #19192e 100%);
+	background: linear-gradient(180deg, #201048 0%, #011837 33%, #0d0d0d 100%);
 	color: var(--text-main);
 	font-family: "Roboto Condensed", sans-serif;
 	min-height: 100vh;
@@ -23,27 +23,27 @@ body {
 }
 
 .degree-name {
-	font-family: "Bodoni Moda", serif;
-	color: #54acbf;
+	font-family: "Press Start 2P", system-ui;
+	color: #9d00ff;
 	text-align: center;
 }
 
 .term-container {
-	background: linear-gradient(-60deg, #7e5936 0%, #f5cb86 100%);
-	border: 2px solid var(--border-color);
+	background: linear-gradient(180deg, #101010 0%, #0d0d0d 100%);
+	border: 1px solid var(--border-color);
 	border-radius: 15px;
 	padding: 1.5rem;
 	box-shadow: 0 7px 10px rgba(0, 0, 0, 0.8);
 }
 
 .term-title {
-	font-family: "Bodoni Moda", serif;
+	font-family: "Press Start 2P", system-ui;
 	color: var(--accent);
 	margin-bottom: 0.4rem;
 }
 
 .term-progress {
-	color: #00447C;
+	color: #00b4fe;
 	font-style: italic;
 	margin-bottom: 1rem;
 }
@@ -59,7 +59,7 @@ body {
 	font-family: "JetBrains Mono", monospace;
 	font-weight: 700;
 	font-size: 0.7rem;
-	color: #57370d;
+	color: #fff835;
 }
 
 .btn {
@@ -70,33 +70,34 @@ body {
 
 button {
 	font-size: 1rem;
-	color: #00447C;
+	color: #011837;
 	padding: 8px;
 	text-align: center;
-	background-color: cyan;
+	background-color: #00b4fe;
 	border: 0px;
-	border-color: cyan;
+	border-color: #00b4fe;
 	border-radius: 12px 28px;
-	box-shadow: 0 0 5px cyan,
-	0 0 25px cyan;
+	box-shadow: 0 0 5px #00b4fe,
+	0 0 25px #00b4fe;
 }
 
 button:hover {
-	box-shadow: 0 0 5px cyan,
-	0 0 25px cyan, 0 0 50px cyan,
-	0 0 100px cyan, 0 0 200px cyan;
+	cursor: default;
+	box-shadow: 0 0 5px #00b4fe,
+	0 0 25px #00b4fe, 0 0 50px #00b4fe,
+	0 0 75px #00b4fe, 0 0 150px #00b4fe;
 }
 
 .grade-a {
-	background-color: #00c81a;
-	color: #000000;
-	box-shadow: 0 0 10px #00c81a;
+	background-color: #0060b0;
+	color: #adf4fe;
+	box-shadow: 0 0 10px #0060b0;
 }
 
 .grade-b {
-	background-color: #0060b0;
-	color: #ffffff;
-	box-shadow: 0 0 10px #0060b0;
+	background-color: #00c81a;
+	color: #000000;
+	box-shadow: 0 0 10px #00c81a;
 }
 
 .grade-c {
