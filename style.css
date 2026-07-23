@@ -62,6 +62,34 @@ body {
 	color: #fff835;
 }
 
+.course-title {
+	color: var(--accent);
+	font-family: "Press Start 2P", system-ui;
+}
+
+.course-instructor {
+	color: #fe6b03;
+	font-family: "JetBrains Mono", monospace;
+}
+
+.course-time {
+	color: #00c81a;
+	font-family: "JetBrains Mono", monospace;
+}
+
+.course-progress {
+	color: var(--accent);
+	font-family: "JetBrains Mono", monospace;
+}
+
+.list-group-item {
+	background: linear-gradient(-45deg, #0d0d0d 0%, #141414 50%, #000000 100%);
+	border: 1px solid var(--border-color);
+	color: var(--accent);
+	font-family: "JetBrains Mono", monospace;
+	padding: 5px;
+}
+
 .btn {
 	--bs-btn-padding-y: 0.05rem;
 	--bs-btn-padding-x: 0.4rem;
@@ -87,6 +115,11 @@ button:hover {
 	box-shadow: 0 0 5px #00b4fe,
 	0 0 25px #00b4fe, 0 0 50px #00b4fe,
 	0 0 75px #00b4fe, 0 0 150px #00b4fe;
+}
+
+.reading {
+	font-family: "Press Start 2P", system-ui;
+	color: var(--accent);
 }
 
 .grade-a {
@@ -128,6 +161,53 @@ button:hover {
 .grade-pending {
 	background-color: #f947b4;
 	color: #000000;
+	box-shadow: 0 0 10px #f947b4;
+}
+
+.bg-progress {
+	background-color: #666666;
+	color: #000000;
+}
+
+.bg-attendance {
+	background-color: #0060b0;
+	color: #ffffff;
+}
+
+.bg-assignments {
+	background-color: #00c81a;
+	color: #000000;
+}
+
+.bg-tests {
+	background-color: #c8cf00;
+	color: #000000;
+}
+
+.read {
+	background-color: #00c81a;
+	color: #000000;
+	font-size: 0.8rem;
+	border-radius: 10px;
+	padding: 3px;
+	box-shadow: 0 0 10px #00c81a;
+}
+
+.unread {
+	background-color: #fa454f;
+	color: #000000;
+	font-size: 0.8rem;
+	border-radius: 10px;
+	padding: 3px;
+	box-shadow: 0 0 10px #fa454f;
+}
+
+.ip {
+	background-color: #f947b4;
+	color: #000000;
+	font-size: 0.8rem;
+	border-radius: 10px;
+	padding: 3px;
 	box-shadow: 0 0 10px #f947b4;
 }
 
