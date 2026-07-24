@@ -1,25 +1,26 @@
 body {
 	background-color: #E1DFE0;
-    font-family: 'Century Schoolbook', serif;
-	color: #909090;
+    font-family: "Bellefair", serif;
+	color: #666666;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
 	min-height: 100vh;
     margin: 10px;
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: "Parkinsans", sans-serif;
+    font-weight: bolder;
     color: #F6948A;
-    -webkit-text-stroke: 1px pink;
     text-shadow: 1px 2px 3px rgba(255, 0, 0, 0.4);
+    text-align: center;
 }
 
 h6 {
-    font-family: 'Century Schoolbook', serif;
+    font-family: "Bellefair", serif;
     font-style: italic;
-	color: #FFFFFF;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+	color: #F6948A;
+    text-shadow: 0px 1px 1px rgba(255, 0, 0, 0.5);
+    text-align: center;
 }
 
 div {
@@ -59,6 +60,27 @@ div {
 	--bs-btn-font-size: 0.8rem;
 }
 
+button {
+	font-family: "JetBrains Mono", monospace;
+	font-size: 0.9rem;
+	color: #333333;
+	padding: 10px;
+	text-align: center;
+	background-color: #F6948A;
+	border: 1px solid;
+	border-color: #F6948A;
+	border-radius: 16px;
+	box-shadow: 0 0 5px #F6948A,
+	0 0 20px #F6948A;
+}
+
+button:hover {
+	cursor: default;
+	box-shadow: 0 0 5px #F6948A,
+	0 0 25px #F6948A, 0 0 50px #F6948A,
+	0 0 75px #F6948A, 0 0 150px #F6948A;
+}
+
 .course-code {
 	align-items: left;
 	min-width: 90px;
@@ -71,41 +93,55 @@ div {
 
 .grade-a {
 	background-color: #87D5C8;
+    font-family: "Roboto Condensed", sans-serif;
 	color: #333333;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .grade-b {
 	background-color: #ABC760;
+    font-family: "Roboto Condensed", sans-serif;
 	color: #333333;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .grade-c {
 	background-color: #F8C16F;
+    font-family: "Roboto Condensed", sans-serif;
 	color: #333333;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .grade-d {
 	background-color: #FB8257;
+    font-family: "Roboto Condensed", sans-serif;
 	color: #333333;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .grade-f {
 	background-color: #E15B42;
+    font-family: "Roboto Condensed", sans-serif;
 	color: #333333;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .grade-p {
 	background-color: #909090;
+    font-family: "Roboto Condensed", sans-serif;
 	color: #333333;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .grade-pending {
 	background-color: pink;
+    font-family: "Roboto Condensed", sans-serif;
 	color: #333333;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .footer-custom {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 0.7rem;
     font-weight: bold;
     text-align: center;
