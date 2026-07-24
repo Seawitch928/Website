@@ -1,219 +1,121 @@
-:root {
-	--primary-bg: #000000;
-	--accent: #cccccc;
-	--accent-light: #ff0390;
-	--text-main: #666666;
-	--border-color: #00ff00;
-}
-
 body {
-	background: linear-gradient(180deg, #0d0d0d 0%, #101010 33%, #000000 100%);
-	color: var(--text-main);
-	font-family: "Roboto Condensed", sans-serif;
+	background-color: #E1DFE0;
+    font-family: 'Century Schoolbook', serif;
+	color: #909090;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
 	min-height: 100vh;
+    margin: 10px;
 }
 
-.display-name {
-	font-family: "Sixtyfour", sans-serif;
-	font-size: clamp(2.5rem, 5vw, 4rem);
-	text-align: center;
-	text-shadow: 0 5px 7px rgba(0, 0, 0, 0.8);
-	color: var(--accent-light);
-	margin-bottom: 0.5rem;
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #F6948A;
+    -webkit-text-stroke: 1px pink;
+    text-shadow: 1px 2px 3px rgba(255, 0, 0, 0.4);
 }
 
-.degree-name {
-	font-family: "Press Start 2P", system-ui;
-	color: #9d00ff;
-	text-align: center;
+h6 {
+    font-family: 'Century Schoolbook', serif;
+    font-style: italic;
+	color: #FFFFFF;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
-.term-container {
-	background: linear-gradient(-45deg, #0d0d0d 0%, #141414 50%, #000000 100%);
-	border: 1px solid var(--border-color);
-	border-radius: 15px;
-	padding: 1.5rem;
-	box-shadow: 0 7px 10px rgba(0, 0, 0, 0.8);
+div {
+    margin: auto;
+    align-content: center;
+    padding: 20px;
 }
 
-.term-title {
-	font-family: "Press Start 2P", system-ui;
-	color: var(--accent);
-	margin-bottom: 0.4rem;
+.glassbox {
+    backdrop-filter: blur(4px);
+    background: rgba(177, 210, 215, 0.1);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    border: 1px solid rgba(177, 210, 215, 0.3);
+    height: 100%;
+    max-height: 500px;
+    width: 50%;
+    max-width: 768px;
 }
 
-.term-progress {
-	color: #fe6b03;
-	font-style: italic;
-	margin-bottom: 1rem;
+.embossbox {
+    background: #E1DFE0;
+    box-shadow:
+        inset 5px 5px 10px rgba(0, 0, 0, 0.12),
+        inset -5px -5px 10px rgba(255, 255, 255, 0.85);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    height: 100%;
+    max-height: 500px;
+    width: 50%;
+    max-width: 768px;
 }
 
-.course-item {
-	font-size: 0.9rem;
+.btn {
+	--bs-btn-padding-y: 0.0rem;
+	--bs-btn-padding-x: 0.5rem;
+	--bs-btn-font-size: 0.8rem;
 }
 
 .course-code {
 	align-items: left;
-	min-width: 88px;
+	min-width: 90px;
 	padding: 0.35rem 0.6rem;
 	font-family: "JetBrains Mono", monospace;
 	font-weight: 700;
 	font-size: 0.7rem;
-	color: #fff835;
-}
-
-.course-title {
-	color: var(--accent);
-	font-family: "Press Start 2P", system-ui;
-}
-
-.course-instructor {
-	color: #fe6b03;
-	font-family: "JetBrains Mono", monospace;
-}
-
-.course-time {
-	color: #00c81a;
-	font-family: "JetBrains Mono", monospace;
-}
-
-.course-progress {
-	color: var(--accent);
-	font-family: "JetBrains Mono", monospace;
-}
-
-.list-group-item {
-	background: linear-gradient(-45deg, #0d0d0d 0%, #141414 50%, #000000 100%);
-	border: 1px solid var(--border-color);
-	color: var(--accent);
-	font-family: "JetBrains Mono", monospace;
-	padding: 5px;
-}
-
-.btn {
-	--bs-btn-padding-y: 0.05rem;
-	--bs-btn-padding-x: 0.4rem;
-	--bs-btn-font-size: 0.9rem;
-}
-
-button {
-	font-family: "JetBrains Mono", monospace;
-	font-size: 0.9rem;
-	color: #011837;
-	padding: 8px;
-	text-align: center;
-	background-color: #00b4fe;
-	border: 0px;
-	border-color: #00b4fe;
-	border-radius: 12px 28px;
-	box-shadow: 0 0 5px #00b4fe,
-	0 0 25px #00b4fe;
-}
-
-button:hover {
-	cursor: default;
-	box-shadow: 0 0 5px #00b4fe,
-	0 0 25px #00b4fe, 0 0 50px #00b4fe,
-	0 0 75px #00b4fe, 0 0 150px #00b4fe;
-}
-
-.reading {
-	font-family: "Press Start 2P", system-ui;
-	color: var(--accent);
+	color: #333333;
 }
 
 .grade-a {
-	background-color: #0060b0;
-	color: #adf4fe;
-	box-shadow: 0 0 10px #0060b0;
+	background-color: #87D5C8;
+	color: #333333;
 }
 
 .grade-b {
-	background-color: #00c81a;
-	color: #000000;
-	box-shadow: 0 0 10px #00c81a;
+	background-color: #ABC760;
+	color: #333333;
 }
 
 .grade-c {
-	background-color: #c8cf00;
-	color: #000000;
-	box-shadow: 0 0 10px #c8cf00;
+	background-color: #F8C16F;
+	color: #333333;
 }
 
 .grade-d {
-	background-color: #ec671b;
-	color: #000000;
-	box-shadow: 0 0 10px #ec671b;
+	background-color: #FB8257;
+	color: #333333;
 }
 
 .grade-f {
-	background-color: #fa454f;
-	color: #000000;
-	box-shadow: 0 0 10px #fa454f;
+	background-color: #E15B42;
+	color: #333333;
 }
 
 .grade-p {
-	background-color: #afafaf;
-	color: #000000;
-	box-shadow: 0 0 10px #afafaf;
+	background-color: #909090;
+	color: #333333;
 }
 
 .grade-pending {
-	background-color: #f947b4;
-	color: #000000;
-	box-shadow: 0 0 10px #f947b4;
-}
-
-.bg-progress {
-	background-color: #666666;
-	color: #000000;
-}
-
-.bg-attendance {
-	background-color: #0060b0;
-	color: #ffffff;
-}
-
-.bg-assignments {
-	background-color: #00c81a;
-	color: #000000;
-}
-
-.bg-tests {
-	background-color: #c8cf00;
-	color: #000000;
-}
-
-.read {
-	background-color: #00c81a;
-	color: #000000;
-	font-size: 0.8rem;
-	border-radius: 10px;
-	padding: 3px;
-	box-shadow: 0 0 10px #00c81a;
-}
-
-.unread {
-	background-color: #fa454f;
-	color: #000000;
-	font-size: 0.8rem;
-	border-radius: 10px;
-	padding: 3px;
-	box-shadow: 0 0 10px #fa454f;
-}
-
-.ip {
-	background-color: #f947b4;
-	color: #000000;
-	font-size: 0.8rem;
-	border-radius: 10px;
-	padding: 3px;
-	box-shadow: 0 0 10px #f947b4;
+	background-color: pink;
+	color: #333333;
 }
 
 .footer-custom {
-	color: #ff0390;
-	font-size: 0.95rem;
-	font-weight: bold;
-	text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: none;
+}
+
+.display-name {
+    text-align: center;
+}
+
+.degree-name {
+    text-align: center;
 }
