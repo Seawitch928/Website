@@ -47,7 +47,7 @@ div {
         inset 5px 5px 10px rgba(0, 0, 0, 0.12),
         inset -5px -5px 10px rgba(255, 255, 255, 0.85);
     border-radius: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.35);
+    border: 0px solid rgba(255, 255, 255, 0.35);
     height: 100%;
     max-height: 500px;
     width: 50%;
